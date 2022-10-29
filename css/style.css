@@ -1,0 +1,79 @@
+
+
+.barIcon{
+  /* background-color: blue; */
+  width: 380px;
+  
+  position: fixed;
+  top: 0;
+  left: -240px;
+  z-index: 999999;
+  
+}
+.barIcon h3{
+   display: inline-block;
+   width: 70px;
+   height: 45px;
+   background-color: red;
+  
+}
+.barIcon i{
+  color: aqua;
+  
+}
+.info{
+  display: inline-block;
+  background-color: gray;
+  width: 240px;
+  height:100vh;
+}
+#Detailes{
+  height: 500px;
+}
+.info a{
+  color: white;
+  text-decoration: none;
+}
+.cont1{
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.body_info{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background-color:rgba(99,83, 83,0.6);
+  transition:top 1s ;
+}
+.cont1:hover .body_info{
+   top:5%;
+}
+h1{
+  height: 100%;
+}
+.dblock{
+  display: inline-block;
+  margin: 10px;
+  background-color: rgb(132, 81, 81);
+  color: gray;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+button a{
+  text-decoration: none;
+  
+}
+#categories{
+  display: none;
+}
+#display_recipes_sec{
+  display: none;
+}
+#areasec{
+  display: none;
+}
